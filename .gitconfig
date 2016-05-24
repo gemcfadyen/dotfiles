@@ -1,0 +1,12 @@
+[core]
+  excludesfile = /Users/Georgina/.gitignore_global
+  editor = /usr/bin/vim
+[user]
+  name = gemcfadyen
+  email = gemcfadyen@hotmail.co.uk
+[push]
+  default = simple
+[alias]
+  st = status
+  co = checkout
+
