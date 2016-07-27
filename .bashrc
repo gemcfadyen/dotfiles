@@ -1,7 +1,5 @@
 source ~/fancy_prompt.sh
 source ~/.git-completion.bash
-export rvm_path=~/.rvm
-source ~/.rvm/scripts/rvm
 
 #latest JDK 7 by Oracle
 export JAVA_7_HOME=$(/usr/libexec/java_home -v 1.7)
@@ -15,7 +13,6 @@ export JAVA_HOME=$JAVA_8_HOME
 alias java7='JAVA_HOME=$JAVA_7_HOME && java -version'
 alias java8='export JAVA_HOME=$JAVA_8_HOME && java -version'
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:/usr/local/bin/elixir"
 
 #ruby tests
