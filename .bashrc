@@ -13,9 +13,8 @@ export JAVA_HOME=$JAVA_8_HOME
 alias java7='JAVA_HOME=$JAVA_7_HOME && java -version'
 alias java8='export JAVA_HOME=$JAVA_8_HOME && java -version'
 
-export PATH="$PATH:/usr/local/bin/elixir"
+#export PATH="$PATH:/usr/local/bin/elixir"
 
 #ruby tests
 alias be='bundle exec' # rspec, coveralls report
 alias bc='bundle exec coveralls report'
-
