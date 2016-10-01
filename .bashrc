@@ -15,6 +15,9 @@ alias java8='export JAVA_HOME=$JAVA_8_HOME && java -version'
 
 #export PATH="$PATH:/usr/local/bin/elixir"
 
+#chruby
+source /usr/local/share/chruby/chruby.sh
+
 #ruby tests
 alias be='bundle exec' # rspec, coveralls report
 alias bc='bundle exec coveralls report'
