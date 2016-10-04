@@ -21,11 +21,3 @@ source /usr/local/share/chruby/chruby.sh
 #ruby tests
 alias be='bundle exec' # rspec, coveralls report
 alias bc='bundle exec coveralls report'
-
-
-# Print divider under each command
-PROMPT_COMMAND=printDivider
-
-function printDivider() {
-  printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -;
-}
