@@ -26,6 +26,7 @@ Plugin 'vim-scripts/paredit.vim'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
+Plugin 'junegunn/fzf'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,7 +48,9 @@ set showmatch " show matching brackets
 set autoindent
 set noswapfile
 
-set clipboard+=unnamed
+if $TMUX == ''
+    set clipboard+=unnamed
+endif
 
 "" Searching
 set hlsearch                    " highlight matches
