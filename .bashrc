@@ -14,6 +14,7 @@ alias java7='JAVA_HOME=$JAVA_7_HOME && java -version'
 alias java8='export JAVA_HOME=$JAVA_8_HOME && java -version'
 
 #export PATH="$PATH:/usr/local/bin/elixir"
+export PATH="$PATH:/Users/georgina/.bin/"
 
 #chruby
 source /usr/local/share/chruby/chruby.sh

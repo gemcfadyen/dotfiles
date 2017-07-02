@@ -27,6 +27,9 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 Plugin 'junegunn/fzf'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'briancollins/vim-jst'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -149,3 +152,10 @@ vnoremap <up> <nop>
 vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
+
+
+"Fuzzy find
+map <silent> <leader>f :FZF<CR>
+
+"jsx
+let g:jsx_ext_required = 0
