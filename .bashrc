@@ -1,5 +1,6 @@
 source ~/fancy_prompt.sh
 source ~/.git-completion.bash
+cat ~/.ssh/config.d/* > ~/.ssh/config
 
 #latest JDK 7 by Oracle
 export JAVA_7_HOME=$(/usr/libexec/java_home -v 1.7)
@@ -22,3 +23,6 @@ source /usr/local/share/chruby/chruby.sh
 #ruby tests
 alias be='bundle exec' # rspec, coveralls report
 alias bc='bundle exec coveralls report'
+
+export DOCKER_HOST_IP=$(ifconfig en0 | grep inet | grep -v inet6 | awk -F: '{print $0}' | awk '{print $2}')
+
