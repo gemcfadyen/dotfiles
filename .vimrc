@@ -68,7 +68,10 @@ syntax on "syntax highlighting
 colorscheme onedark
 set background=dark
 let mapleader = ","
-
+"make § do esc"
+inoremap § <Esc>
+"make esc do nothing"
+inoremap <Esc> <Nop>
 " clean trailing whitespace
 nnoremap <leader>w mz:%s/\s\+$//<cr>:let @/=''<cr>
 
