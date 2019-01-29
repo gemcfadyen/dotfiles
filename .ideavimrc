@@ -10,3 +10,9 @@ vnoremap <up> <nop>
 vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
+"make § do esc
+inoremap § <Esc>
+"make esc do nothing
+inoremap <Esc> <Nop>
+"" clean trailing whitespace
+nnoremap <leader>w mz:%s/\s\+$//<cr>:let @/=''<cr>noremap

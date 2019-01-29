@@ -30,7 +30,11 @@ Plugin 'junegunn/fzf'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'briancollins/vim-jst'
+Plugin 'ianks/vim-tsx'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/vim-js-pretty-template'
+Plugin 'jason0x43/vim-js-indent'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
