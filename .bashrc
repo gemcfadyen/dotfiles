@@ -30,6 +30,9 @@ export PATH="$PATH:/Users/georgina/Library/Android/sdk/platform-tools"
 export PATH="$PATH:/Users/georgina/Library/Android/sdk/tools"
 export ANDROID_HOME="/Users/georgina/Library/Android/sdk"
 
+export PATH="$PATH:/Users/georgina/Library/Android/emulator"
+export PATH="$PATH:/Users/georgina/Library/Android/tools/bin"
+
 export ANDROID_SDK_ROOT="/Users/georgina/Library/Android/sdk"
 export ANDROID_AVD_HOME="/Users/georgina/.android/avd"
 
