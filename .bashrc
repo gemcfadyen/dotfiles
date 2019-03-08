@@ -37,7 +37,7 @@ export ANDROID_SDK_ROOT="/Users/georgina/Library/Android/sdk"
 export ANDROID_AVD_HOME="/Users/georgina/.android/avd"
 
 export ARTIFACTORY_USER="georgina.mcfadyen"
-export ARTIFACTORY_PASSWORD="AP59ToJzPrNorWdG5UYZywJaQkm"
+export ARTIFACTORY_PASSWORD="updateme"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
