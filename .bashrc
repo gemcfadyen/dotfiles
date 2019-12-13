@@ -26,6 +26,7 @@ export DOCKER_HOST_IP=$(ifconfig en0 | grep inet | grep -v inet6 | awk -F: '{pri
 export ERL_AFLAGS="-kernel shell_history enabled"
 export ANDROID_HOME="/Users/georgina/Library/Android/sdk"
 export ANDROID_AVD_HOME="/Users/georgina/.android/avd"
+
 export PATH=$ANDROID_HOME/emulator/:$ANDROID_HOME/tools:$PATH
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
