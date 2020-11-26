@@ -4,13 +4,17 @@ source ~/.git-completion.bash
 #latest preview JDK 8 by Oracle
 export JAVA_8_HOME=$(/usr/libexec/java_home -v 1.8)
 export JAVA_11_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_14_HOME=$(/usr/libexec/java_home -v 14)
+export JAVA_15_HOME=$(/usr/libexec/java_home -v 15)
 
-#default JDK is 8
-export JAVA_HOME=$JAVA_8_HOME
+#default JDK is 14
+export JAVA_HOME=$JAVA_14_HOME
 
 #Make aliases to switch from one to another
 alias java8='export JAVA_HOME=$JAVA_8_HOME && java -version'
 alias java11='export JAVA_HOME=$JAVA_11_HOME && java -version'
+alias java14='export JAVA_HOME=$JAVA_14_HOME && java -version'
+alias java15='export JAVA_HOME=$JAVA_15_HOME && java -version'
 
 export PATH="$PATH:/Users/georgina/.bin/"
 
