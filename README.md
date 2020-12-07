@@ -19,10 +19,8 @@ Copy the colorschema
       `cp -r .vim/colors ~/.vim/colors'
 
 Install [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect):
-
-        ```
+        
         cd ~
         git clone https://github.com/tmux-plugins/tmux-resurrect 
-        ```
-
+        
 Restart the terminal for the fancyprompt to take effect.
