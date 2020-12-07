@@ -20,6 +20,9 @@ Copy the colorschema
 
 Install [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect):
 
-        `git clone https://github.com/tmux-plugins/tmux-resurrect ~/clone/path`
+        ```
+        cd ~
+        git clone https://github.com/tmux-plugins/tmux-resurrect 
+        ```
 
 Restart the terminal for the fancyprompt to take effect.
